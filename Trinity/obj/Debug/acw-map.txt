@@ -1,0 +1,12 @@
+Trinity.MainActivity, Trinity;md54d0a2be438b2a8a5a7d3aa7dddfd8f8c.MainActivity
+Trinity.MainActivity, Trinity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md54d0a2be438b2a8a5a7d3aa7dddfd8f8c.MainActivity
+Trinity.MainActivity;md54d0a2be438b2a8a5a7d3aa7dddfd8f8c.MainActivity
+trinity.MainActivity;md54d0a2be438b2a8a5a7d3aa7dddfd8f8c.MainActivity
+Trinity.Control.LoginScreem, Trinity;md5b0b208d2590483504e5d6ab58186f62b.LoginScreem
+Trinity.Control.LoginScreem, Trinity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b0b208d2590483504e5d6ab58186f62b.LoginScreem
+Trinity.Control.LoginScreem;md5b0b208d2590483504e5d6ab58186f62b.LoginScreem
+trinity.control.LoginScreem;md5b0b208d2590483504e5d6ab58186f62b.LoginScreem
+Trinity.Control.MainMenu, Trinity;md5b0b208d2590483504e5d6ab58186f62b.MainMenu
+Trinity.Control.MainMenu, Trinity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b0b208d2590483504e5d6ab58186f62b.MainMenu
+Trinity.Control.MainMenu;md5b0b208d2590483504e5d6ab58186f62b.MainMenu
+trinity.control.MainMenu;md5b0b208d2590483504e5d6ab58186f62b.MainMenu
