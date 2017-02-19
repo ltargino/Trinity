@@ -17,16 +17,19 @@
     <Button
         android:text="Time line"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnTimeLineMainMenu" />
+        android:layout_height="69.5dp"
+        android:id="@+id/btnTimeLineMainMenu"
+        android:layout_marginTop="50dp" />
     <Button
         android:text="Lançar pagamento"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnLancarPagamentoMainMenu" />
+        android:layout_height="67.0dp"
+        android:id="@+id/btnLancarPagamentoMainMenu"
+        android:layout_marginTop="20dp" />
     <Button
         android:text="Prêmios"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnPremiosMainMenu" />
+        android:layout_height="66.0dp"
+        android:id="@+id/btnPremiosMainMenu"
+        android:layout_marginTop="20dp" />
 </LinearLayout>

@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/etxConfirmTroca2"
         android:textColor="@android:color/background_dark"
-        android:textAlignment="viewStart" />
+        android:textAlignment="center" />
     <TextView
         android:text="VOUCHE ENVIADO PARA O E-MAIL: {E-MAIL}"
         android:textAppearance="?android:attr/textAppearanceLarge"
