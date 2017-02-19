@@ -16,7 +16,7 @@
             android:src="@drawable/trinityteam160x160"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/imageView1" />
+            android:id="@+id/imgTroca" />
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
@@ -27,14 +27,14 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView1"
+                android:id="@+id/txNomePremioTroca"
                 android:textColor="@android:color/background_dark" />
             <TextView
                 android:text="{DescricaoPremio}"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/textView2"
+                android:id="@+id/txDescricaoPremioTroca"
                 android:textColor="@android:color/background_dark" />
         </LinearLayout>
     </LinearLayout>
@@ -56,12 +56,12 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText1"
+        android:id="@+id/edtSenhaTroca"
         android:hint="Senha"
         android:textColorHint="@android:color/darker_gray" />
     <Button
         android:text="Confirmar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button1" />
+        android:id="@+id/btnConfirmarTroca" />
 </LinearLayout>

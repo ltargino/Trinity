@@ -12,14 +12,14 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView1"
+        android:id="@+id/etxConfirmTroca1"
         android:textColor="@android:color/background_dark" />
     <TextView
         android:text="{codigo gerado}"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2"
+        android:id="@+id/etxConfirmTroca2"
         android:textColor="@android:color/background_dark"
         android:textAlignment="viewStart" />
     <TextView
@@ -27,13 +27,13 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView3"
+        android:id="@+id/etxConfirmTroca3"
         android:textColor="@android:color/background_dark" />
     <TextView
         android:text="OBRIGADO!"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView4"
+        android:id="@+id/etxConfirmTroca4"
         android:textColor="@android:color/background_dark" />
 </LinearLayout>

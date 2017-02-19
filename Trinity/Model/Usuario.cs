@@ -11,6 +11,7 @@ using Android.Views;
 using Android.Widget;
 
 namespace Trinity.Model {
+    [Serializable]
     class Usuario {
         public int ID { get; set; }
         public string CPF { get; set; }

@@ -23,7 +23,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/editText1"
+            android:id="@+id/etxNomeCadastro"
             android:hint="Ex: Larissa Targino"
             android:textColorHint="@android:color/darker_gray" />
     </LinearLayout>
@@ -43,7 +43,7 @@
             android:inputType="date"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/editText2" />
+            android:id="@+id/etxDataNascimentoCadatro" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -60,7 +60,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/editText3"
+            android:id="@+id/etxCPFCadastro"
             android:textColorHint="@android:color/darker_gray"
             android:hint="Ex: 12345678912" />
     </LinearLayout>
@@ -79,7 +79,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/editText4"
+            android:id="@+id/etxTelefoneCadastro"
             android:textColorHint="@android:color/darker_gray"
             android:hint="Ex: 999999999" />
     </LinearLayout>
@@ -98,7 +98,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/editText5"
+            android:id="@+id/etxEmailCadastro"
             android:hint="Ex: name@mail.com"
             android:textColorHint="@android:color/darker_gray" />
     </LinearLayout>
@@ -117,7 +117,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/editText6"
+            android:id="@+id/etxSenhaCadastro"
             android:textColorHint="@android:color/darker_gray" />
     </LinearLayout>
     <LinearLayout
@@ -135,11 +135,11 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/editText7" />
+            android:id="@+id/etxConfirmSenhaCadastro" />
     </LinearLayout>
     <Button
         android:text="Confirmar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button1" />
+        android:id="@+id/btnConfirmarCadastro" />
 </LinearLayout>

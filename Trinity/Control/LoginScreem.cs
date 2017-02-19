@@ -22,6 +22,8 @@ namespace Trinity.Control {
         private EditText emailLogin;
         private EditText senhaLogin;
         private Button btnLogin;
+        private Button btnRecuperarSenha;
+        private Button btnCadastro;
 
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
@@ -32,8 +34,19 @@ namespace Trinity.Control {
             senhaLogin = FindViewById<EditText>(Resource.Id.senhaLogin);
 
             btnLogin = FindViewById<Button>(Resource.Id.btnLogin);
+            btnRecuperarSenha = FindViewById<Button>(Resource.Id.btnRecuperarSenha);
+            btnCadastro = FindViewById<Button>(Resource.Id.btnCadastro);
+
             btnLogin.Click += delegate {
                 login();
+            };
+
+            btnRecuperarSenha.Click += delegate {
+                recuperarSenha();
+            };
+
+            btnCadastro.Click += delegate {
+                cadastrar();
             };
 
         }
@@ -69,7 +82,12 @@ namespace Trinity.Control {
                             Usuario usuarioResposta = JsonConvert.DeserializeObject<Usuario>(responseText);
 
                             if (validarSenha(usuarioResposta)) {
-                                StartActivity(typeof(MainMenu));
+                                Intent intent = new Intent();
+
+                                intent.SetClass(this, typeof(MainMenu));
+                                intent.PutExtra("usuario", JsonConvert.SerializeObject( usuarioResposta ) );
+
+                                StartActivity(intent);
                             }
 
                         }
@@ -96,6 +114,16 @@ namespace Trinity.Control {
             isvalid = (senhaLogin.Text == usuarioResposta.SENHA);
 
             return isvalid;
+        }
+
+        private void recuperarSenha()
+        {
+            StartActivity(typeof(EsqSenha));
+        }
+
+        private void cadastrar()
+        {
+            StartActivity(typeof(Cadastro));
         }
     }
 }

@@ -10,6 +10,7 @@ namespace Trinity
         protected override void OnCreate(Bundle bundle) {
             base.OnCreate(bundle);
             StartActivity(typeof(LoginScreem));
+            //StartActivity(typeof(MainMenu));
         }
     }
 }

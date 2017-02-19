@@ -2,6 +2,22 @@ Trinity.MainActivity, Trinity;md54d0a2be438b2a8a5a7d3aa7dddfd8f8c.MainActivity
 Trinity.MainActivity, Trinity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md54d0a2be438b2a8a5a7d3aa7dddfd8f8c.MainActivity
 Trinity.MainActivity;md54d0a2be438b2a8a5a7d3aa7dddfd8f8c.MainActivity
 trinity.MainActivity;md54d0a2be438b2a8a5a7d3aa7dddfd8f8c.MainActivity
+Trinity.Control.Cadastro, Trinity;md5b0b208d2590483504e5d6ab58186f62b.Cadastro
+Trinity.Control.Cadastro, Trinity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b0b208d2590483504e5d6ab58186f62b.Cadastro
+Trinity.Control.Cadastro;md5b0b208d2590483504e5d6ab58186f62b.Cadastro
+trinity.control.Cadastro;md5b0b208d2590483504e5d6ab58186f62b.Cadastro
+Trinity.Control.ConfirmTrocas, Trinity;md5b0b208d2590483504e5d6ab58186f62b.ConfirmTrocas
+Trinity.Control.ConfirmTrocas, Trinity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b0b208d2590483504e5d6ab58186f62b.ConfirmTrocas
+Trinity.Control.ConfirmTrocas;md5b0b208d2590483504e5d6ab58186f62b.ConfirmTrocas
+trinity.control.ConfirmTrocas;md5b0b208d2590483504e5d6ab58186f62b.ConfirmTrocas
+Trinity.Control.EsqSenha, Trinity;md5b0b208d2590483504e5d6ab58186f62b.EsqSenha
+Trinity.Control.EsqSenha, Trinity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b0b208d2590483504e5d6ab58186f62b.EsqSenha
+Trinity.Control.EsqSenha;md5b0b208d2590483504e5d6ab58186f62b.EsqSenha
+trinity.control.EsqSenha;md5b0b208d2590483504e5d6ab58186f62b.EsqSenha
+Trinity.Control.LancHistoPontos, Trinity;md5b0b208d2590483504e5d6ab58186f62b.LancHistoPontos
+Trinity.Control.LancHistoPontos, Trinity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b0b208d2590483504e5d6ab58186f62b.LancHistoPontos
+Trinity.Control.LancHistoPontos;md5b0b208d2590483504e5d6ab58186f62b.LancHistoPontos
+trinity.control.LancHistoPontos;md5b0b208d2590483504e5d6ab58186f62b.LancHistoPontos
 Trinity.Control.LoginScreem, Trinity;md5b0b208d2590483504e5d6ab58186f62b.LoginScreem
 Trinity.Control.LoginScreem, Trinity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b0b208d2590483504e5d6ab58186f62b.LoginScreem
 Trinity.Control.LoginScreem;md5b0b208d2590483504e5d6ab58186f62b.LoginScreem
@@ -10,3 +26,15 @@ Trinity.Control.MainMenu, Trinity;md5b0b208d2590483504e5d6ab58186f62b.MainMenu
 Trinity.Control.MainMenu, Trinity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b0b208d2590483504e5d6ab58186f62b.MainMenu
 Trinity.Control.MainMenu;md5b0b208d2590483504e5d6ab58186f62b.MainMenu
 trinity.control.MainMenu;md5b0b208d2590483504e5d6ab58186f62b.MainMenu
+Trinity.Control.Premio, Trinity;md5b0b208d2590483504e5d6ab58186f62b.Premio
+Trinity.Control.Premio, Trinity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b0b208d2590483504e5d6ab58186f62b.Premio
+Trinity.Control.Premio;md5b0b208d2590483504e5d6ab58186f62b.Premio
+trinity.control.Premio;md5b0b208d2590483504e5d6ab58186f62b.Premio
+Trinity.Control.TimeLine, Trinity;md5b0b208d2590483504e5d6ab58186f62b.TimeLine
+Trinity.Control.TimeLine, Trinity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b0b208d2590483504e5d6ab58186f62b.TimeLine
+Trinity.Control.TimeLine;md5b0b208d2590483504e5d6ab58186f62b.TimeLine
+trinity.control.TimeLine;md5b0b208d2590483504e5d6ab58186f62b.TimeLine
+Trinity.Control.Troca, Trinity;md5b0b208d2590483504e5d6ab58186f62b.Troca
+Trinity.Control.Troca, Trinity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b0b208d2590483504e5d6ab58186f62b.Troca
+Trinity.Control.Troca;md5b0b208d2590483504e5d6ab58186f62b.Troca
+trinity.control.Troca;md5b0b208d2590483504e5d6ab58186f62b.Troca

@@ -51,15 +51,26 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Control\Cadastro.cs" />
+    <Compile Include="Control\ConfirmTroca.cs" />
+    <Compile Include="Control\EsqSenha.cs" />
+    <Compile Include="Control\LancHistoPontos.cs" />
     <Compile Include="Control\LoginScreem.cs" />
     <Compile Include="Control\MainMenu.cs" />
+    <Compile Include="Control\Premio.cs" />
+    <Compile Include="Control\TimeLine.cs" />
+    <Compile Include="Control\Troca.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Model\Feed.cs" />
     <Compile Include="Model\Formas_Pagamentos.cs" />
+    <Compile Include="Model\Lancamento.cs" />
+    <Compile Include="Model\Mensagens.cs" />
+    <Compile Include="Model\Saldo_Usuario.cs" />
     <Compile Include="Model\Usuario.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -132,6 +143,15 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Styles.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Premio7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Premio8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Premio1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
