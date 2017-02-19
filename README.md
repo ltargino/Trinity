@@ -4,7 +4,7 @@ Gerar a aproximação de pessoas através de uma iniciativa dinamica de distribu
 
 tendo como pontos fortes:
 
-#Gerar a aproximação de pessoas através de uma iniciativa dinâmica.
-#Pontuar pessoas que usam e compartilham opiniões sobre diversos meios de pagamento.
-#Pontuações geram vouches que serão utilizados em eventos, jantares e vários outros atrativos.
-#Ao final teremos uma aplicação onde é possível compartilhar opiniões sobre estabelecimentos, meios de pagamentos e fazer novas amizades tanto no mundo virtual como no real através de uma rede de interesses incomum.
+- Gerar a aproximação de pessoas através de uma iniciativa dinâmica.
+- Pontuar pessoas que usam e compartilham opiniões sobre diversos meios de pagamento.
+- Pontuações geram vouches que serão utilizados em eventos, jantares e vários outros atrativos.
+- Ao final teremos uma aplicação onde é possível compartilhar opiniões sobre estabelecimentos, meios de pagamentos e fazer novas amizades tanto no mundo virtual como no real através de uma rede de interesses incomum.
