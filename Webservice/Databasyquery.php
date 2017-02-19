@@ -113,7 +113,7 @@ switch ($typeQuery){
 
 
         while($row = mysqli_fetch_object($result)){
-            $formaFeedTemp = new Feed($row->ID, $row->COD_PUBLICACAO, $row->DATA_PUBLICACAO, $row->DESCRICAO_FEED, $row->FK_ID_USUARIO);
+            $formaFeedTemp = new Feed($row->COD_PUBLICACAO, $row->DATA_PUBLICACAO, $row->DESCRICAO_FEED, $row->FK_ID_USUARIO);
 
             array_push($respostaFeed, $formaFeedTemp);
         }
@@ -127,19 +127,20 @@ switch ($typeQuery){
         $idUsuario = $_GET["idUsuario"];
 
         $result = mysqli_query($Con->getLink(), "SELECT ID,
-                                                        FK_ID_USUSARIO,
+                                                        FK_ID_USUARIO,
                                                         CHAVE_SEGURANCA,
-                                                        DATA_LANCAMENTO,
+                                                        DATA_LACAMENTO,
                                                         PONTOS_USUARIO,
                                                         VALOR_COMPRA,
-                                                        STATUS
+                                                        STATUS,
+                                                        TIPO_PAGAMENTO
                                                    FROM Lacamentos
-                                                  WHERE FK_ID_USUSARIO = ".$idUsuario) or die('Erro ao consultar.');
+                                                  WHERE FK_ID_USUARIO= ".$idUsuario) or die('Erro ao consultar.');
 
 
 
         while($row = mysqli_fetch_object($result)){
-            $lancamentoTemp = new Lancamentos($row->ID, $row->ID, $row->FK_ID_USUSARIO, $row->CHAVE_SEGURANCA, $row->DATA_LANCAMENTO, $row->PONTOS_USUARIO, $row->VALOR_COMPRA, $row->STATUS);
+            $lancamentoTemp = new Lancamentos($row->ID, $row->FK_ID_USUARIO, $row->CHAVE_SEGURANCA, $row->DATA_LACAMENTO, $row->PONTOS_USUARIO, $row->VALOR_COMPRA, $row->STATUS, $row->TIPO_PAGAMENTO);
 
             array_push($respostaLancamentos, $lancamentoTemp);
         }

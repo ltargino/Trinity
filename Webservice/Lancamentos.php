@@ -16,6 +16,7 @@ class Lancamentos
     public $PONTOS_USUARIO;
     public $VALOR_COMPRA;
     public $STATUS;
+    public $TIPO_PAGAMENTO;
 
     /**
      * Lancamentos constructor.
@@ -26,8 +27,9 @@ class Lancamentos
      * @param $PONTOS_USUARIO
      * @param $VALOR_COMPRA
      * @param $STATUS
+     * @param $TIPO_PAGAMENTO
      */
-    public function __construct($ID, $FK_ID_USUARIO, $CHAVE_SEGURANCA, $DATA_LANCAMENTO, $PONTOS_USUARIO, $VALOR_COMPRA, $STATUS)
+    public function __construct($ID, $FK_ID_USUARIO, $CHAVE_SEGURANCA, $DATA_LANCAMENTO, $PONTOS_USUARIO, $VALOR_COMPRA, $STATUS, $TIPO_PAGAMENTO)
     {
         $this->ID = $ID;
         $this->FK_ID_USUARIO = $FK_ID_USUARIO;
@@ -36,6 +38,7 @@ class Lancamentos
         $this->PONTOS_USUARIO = $PONTOS_USUARIO;
         $this->VALOR_COMPRA = $VALOR_COMPRA;
         $this->STATUS = $STATUS;
+        $this->TIPO_PAGAMENTO = $TIPO_PAGAMENTO;
     }
 
     /**
@@ -148,6 +151,22 @@ class Lancamentos
     public function setSTATUS($STATUS)
     {
         $this->STATUS = $STATUS;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTIPOPAGAMENTO()
+    {
+        return $this->TIPO_PAGAMENTO;
+    }
+
+    /**
+     * @param mixed $TIPO_PAGAMENTO
+     */
+    public function setTIPOPAGAMENTO($TIPO_PAGAMENTO)
+    {
+        $this->TIPO_PAGAMENTO = $TIPO_PAGAMENTO;
     }
 
     public function toJSON(){
